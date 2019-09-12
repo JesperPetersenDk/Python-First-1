@@ -5,3 +5,7 @@ for i in [0, 1, 2, 3]:
 print("Range 4")
 for i in range(4):
     print(i)
+
+print("Enumerate")
+for idx, value in enumerate(range(8,0,-1)):
+    print(idx, value)
