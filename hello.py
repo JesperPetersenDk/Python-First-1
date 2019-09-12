@@ -1,0 +1,7 @@
+print("Hello world")
+
+
+for i in [0, 1, 2, 3]:
+    print(i)
+
+    
