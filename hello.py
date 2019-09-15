@@ -40,3 +40,19 @@ print("three")
 high_ord_func = lambda x, func: x + func(x)
 x = high_ord_func(5, lambda x: x*x)
 print(x)
+
+print("Filter + lambda")
+li = [5, 7, 22, 97, 54, 62, 77, 23, 73, 61]
+
+final_list = list(filter(lambda x: (x%2 != 0) , li))
+print(final_list) 
+
+other_list = list(map(lambda x: x*2, li))
+print(other_list)
+
+print("Random")
+import random
+for idxx in range(0,10):
+    dice = random.choice(li)
+    print(idxx, dice)
+
