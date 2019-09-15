@@ -1,5 +1,5 @@
-x = 5
-y = 4
+x = 8
+y = 3
 print(y)
 print(x)
 
@@ -15,6 +15,10 @@ print(a)
 s = "Awesome"
 print("python er " + s)
 
-
 b = s + a + r
 print(b)
+
+print(x + y)
+print(x * y)
+print(x ** y)
+print(x / y)
